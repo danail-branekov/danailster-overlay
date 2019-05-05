@@ -12,7 +12,6 @@ How to use
 
 ```bash
 layman -a danailster-overlay -o https://raw.githubusercontent.com/danail-branekov/danailster-overlay/master/repositories.xml -f
-
 ```
 
 3. Install overlay packages, for example
