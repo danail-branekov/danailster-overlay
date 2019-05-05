@@ -11,15 +11,15 @@ SRC_URI="
 	amd64? ( http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb -> ${P}.deb )
 "
 
-IUSE="+apulse"
+IUSE="+pulseaudio"
 SLOT="0"
 KEYWORDS="amd64"
 
 QA_PREBUILT="*"
 
 RESTRICT="mirror bindist strip"
-RDEPEND="apulse? ( >=media-sound/apulse-0.1.12_p20180803 )
-	!apulse? ( media-sound/pulseaudio )"
+RDEPEND="pulseaudio? ( media-sound/pulseaudio )
+	!pulseaudio? ( media-sound/apulse )"
 
 S="${WORKDIR}"
 
