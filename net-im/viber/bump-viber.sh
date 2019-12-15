@@ -11,4 +11,6 @@ emerge --unmerge viber
 rm -rf /usr/portage/distfiles/viber-9999.deb
 rm -rf  /var/lib/layman/danailster-overlay/net-im/viber
 
-ebuild viber-9999.ebuild manifest clean merge
+rm Manifest
+ebuild viber-9999.ebuild manifest
+
