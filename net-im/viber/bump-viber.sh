@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Viber is a piece of software with quite a crappy delivery process which only provides latest linux binary. 
+# Viber is a piece of software with quite a crappy delivery process which only provides latest linux binary.
 # This makes it quite hard for Linux distribution package maintainers to keep up with releasing new versions as bumping to a new version has to be done manually
 
 
