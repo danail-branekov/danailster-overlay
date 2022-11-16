@@ -21,6 +21,10 @@ RESTRICT="mirror bindist strip"
 RDEPEND="pulseaudio? ( media-sound/pulseaudio )
 	!pulseaudio? ( media-sound/apulse )"
 
+DEPEND="$RDEPEND
+        media-libs/opus
+        app-arch/snappy"
+
 S="${WORKDIR}"
 
 src_unpack() {
