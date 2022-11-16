@@ -23,7 +23,8 @@ RDEPEND="pulseaudio? ( media-sound/pulseaudio )
 
 DEPEND="$RDEPEND
         media-libs/opus
-        app-arch/snappy"
+        app-arch/snappy
+        x11-libs/tslib"
 
 S="${WORKDIR}"
 
