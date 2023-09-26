@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI="7"
-inherit eutils unpacker xdg-utils
+inherit unpacker xdg-utils
 
 DESCRIPTION="Free calls, text and picture sharing with anyone, anywhere!"
 HOMEPAGE="http://www.viber.com"
