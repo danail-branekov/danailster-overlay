@@ -25,7 +25,10 @@ DEPEND="$RDEPEND
         media-libs/opus
         app-arch/snappy
         x11-libs/tslib
-        media-video/ffmpeg[bluray?,libsoxr?,openmpt?,speex?,theora?,twolame?,zvbi?]"
+        media-video/ffmpeg[bluray?,libsoxr?,openmpt?,speex?,theora?,twolame?,zvbi?]
+        media-libs/tiff
+        sys-process/numactl
+        virtual/opencl"
 
 S="${WORKDIR}"
 
