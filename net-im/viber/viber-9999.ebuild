@@ -11,15 +11,15 @@ SRC_URI="
 	amd64? ( http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb -> ${P}.deb )
 "
 
-IUSE="+pulseaudio +bluray +libsoxr +openmpt +speex +theora +twolame +zvbi"
+IUSE="+bluray +libsoxr +openmpt +speex +theora +twolame +zvbi"
 SLOT="0"
 KEYWORDS="amd64"
 
 QA_PREBUILT="*"
 
 RESTRICT="mirror bindist strip"
-RDEPEND="pulseaudio? ( media-sound/pulseaudio )
-	!pulseaudio? ( media-sound/apulse )"
+
+RDEPEND=""
 
 DEPEND="$RDEPEND
         media-libs/opus
