@@ -28,7 +28,8 @@ DEPEND="$RDEPEND
         media-video/ffmpeg[bluray?,libsoxr?,openmpt?,speex?,theora?,twolame?,zvbi?]
         media-libs/tiff
         sys-process/numactl
-        virtual/opencl"
+        virtual/opencl
+        dev-libs/libxml2-compat"
 
 S="${WORKDIR}"
 
