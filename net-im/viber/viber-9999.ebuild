@@ -29,7 +29,8 @@ DEPEND="$RDEPEND
         media-libs/tiff
         sys-process/numactl
         virtual/opencl
-        dev-libs/libxml2-compat"
+        dev-libs/libxml2-compat
+        media-libs/jbigkit"
 
 S="${WORKDIR}"
 
