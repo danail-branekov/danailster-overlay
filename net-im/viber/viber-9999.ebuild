@@ -47,6 +47,10 @@ src_install(){
 	fperms 755 /opt/${PN}/${PN} /opt/${PN}/${PN}-bin
 	sed -i -e '/^Exec/s/Viber/viber/' ${ED}/usr/share/applications/viber.desktop
 	fperms 755 /opt/${PN}/libexec/QtWebEngineProcess
+
+  # Remove the bundled libtiff so Viber falls back to the system one
+  rm "${ED}/opt/viber/lib/libtiff.so.5" || die
+  rm "${ED}/opt/viber/plugins/imageformats/libqtiff.so" || die
 }
 
 pkg_postinst() {
